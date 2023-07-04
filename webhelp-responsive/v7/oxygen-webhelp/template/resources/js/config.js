@@ -13,7 +13,7 @@
  ********************************************************************
  */
 export const LNG_IDX = 3;
-export const VER_IDX = 2;
+export const VER_IDX = 3;
 export const LND_IDX = 1;
 export const LANGUAGE = "Language";
 export const VERSION = "Version";
