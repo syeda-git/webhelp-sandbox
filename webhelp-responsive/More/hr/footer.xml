@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+    <div class="footer">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link footer-launch" style="color:white;" target="_blank" href="https://www.hcltechsw.com/wps/portal/legal/disclaimer">Odricanje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link footer-launch" style="color:white;" target="_blank" href="https://www.hcltechsw.com/wps/portal/legal/privacy">Tajnost</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link footer-launch" style="color:white;" target="_blank" href="https://www.hcltechsw.com/wps/portal/legal/terms-use">Uvjeti upotrebe</a>
+                </li>
+              
+            </ul>
+    </div>
+</div>

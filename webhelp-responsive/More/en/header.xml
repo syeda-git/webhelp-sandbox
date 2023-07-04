@@ -1,0 +1,157 @@
+
+ <div style="background-color:#0066b3" class="hclmenu" id="myhclmenu">
+    <font color="white" style="display: -webkit-flex; display: flex; list-style-type: none;justify-content: flex-end;padding: 20px 0;"> <a href="https://help.hcltechsw.com" style="color:#8cd7fa; margin-right: auto;"><img width="110" src="https://help.hcltechsw.com/assets/images/hcl-logo-white.svg" href="https://help.hcltechsw.com/assets/images/hcl-logo-white.svg" alt="HCL Logo" target="_blank" style="margin: 0px 15px;" />
+        <span class="nav-bar-separator-pipe"></span><span class="title" style="margin-left: 15px; vertical-align: middle; font-size: large;;">Help&#160;Center</span></a>
+        <div align="right">
+		
+		<a></a>
+		<a href="https://www.hcltech.com/" target="_blank" style="color:#8cd7fa; margin-right: 20px;">HCL TECHNOLOGIES</a>
+        <a href="https://www.hcltechsw.com/wps/portal/about" target="_blank" style="color:#8cd7fa; margin-right: 20px;">ABOUT US</a>
+        <a href="https://www.hcltechsw.com/wps/portal/products" target="_blank" style="color:#8cd7fa; margin-right: 20px;">PRODUCTS &#38; SOLUTIONS</a>
+        <a href="https://www.hcltechsw.com/wps/portal/resources" target="_blank" style="color:#8cd7fa; margin-right: 20px;">RESOURCES</a>
+        <a href="https://www.hcltechsw.com/wps/portal/contact-us" target="_blank" style="color:#8cd7fa; margin-right: 20px;">CONTACT US</a>
+		<a href="javascript:void(0)" style="font-size:15px" class="icon" onclick="myFunction1()">&#9776;</a>
+        <div class="dropdown"><button onclick="myFunction()" class="dropbtn" style="color:#8cd7fa; margin-right: 20px;">CHANGE LANGUAGE</button> 
+		<div  class="dropdown-content">
+	
+     <a href="javascript:void(0)" onclick="changeLanguage('fr')">French / Français</a>
+    <a href="javascript:void(0)" onclick="changeLanguage('ja')">Japanese / 日本語</a>
+    <a href="javascript:void(0)" onclick="changeLanguage('en')">English</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('ar')">Arabic / عربية</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('bg')">Bulgarian / Български</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('ca')">Catalan / Català</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('zh_CN')">Chinese (China) / 简体中文</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('zh_TW')">Chinese (Taiwan) / 繁體中文</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('hr')">Croatian / Hrvatski</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('cs')">Czech / Čeština</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('da')">Danish / Dansk</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('nl')">Dutch / Nederlands</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('fi')">Finnish / Suomi</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('de')">German / Deutsch</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('el')">Greek / Ελληνικά</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('iw')">Hebrew / עברית</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('hu')">Hungarian / Magyar</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('it')">Italian / Italiano</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('kk')">Kazakh / Қазақша</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('ko')">Korean / 한국어</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('no')">Norwegian / Norsk</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('pl')">Polish / polski</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('pt_BR')">Portuguese/Brazil / Português/Brasil</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('pt')">Portuguese/Portugal / Português/Portugal</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('ro')">Romanian / Română</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('ru')">Russian / Русский</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('sk')">Slovak / Slovenčina</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('sl')">Slovenian / Slovenščina</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('es')">Spanish / Español</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('sv')">Swedish / Svenska</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('th')">Thai / ภาษาไทย</a>
+	<a href="javascript:void(0)" onclick="changeLanguage('tr')">Turkish / Türkçe</a>
+	
+  </div>
+ <script>
+  
+  <!--
+  function myFunction1() {
+  var x = document.getElementById("myhclmenu");
+  if (x.className === "hclmenu") {
+    x.className += " responsive";
+  } else {
+    x.className = "hclmenu";
+  }
+}
+
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+function changeLanguage(lang) {
+    var defaultLang = "en"
+    if (lang !== null && lang !== undefined && lang !== '') {
+
+ 
+
+            var domain = document.location.origin
+            var currentPath = getCurrentPath()
+            var base_url = getBaseURL(currentPath)
+            var currentPage = currentPath.replace(base_url, "")
+            var langDir = (lang === defaultLang) ? "" : "/" + lang
+            var langUrl = domain + base_url + langDir + currentPage
+            var request = new XMLHttpRequest()
+            
+            request.onreadystatechange = function() {  
+                if (this.readyState === this.DONE) {
+                    var isSoft404 = isPageNotFound(request.responseText)
+                    if (request.status === 200 && !isSoft404) {
+                        console.log("Language documents exist")
+                        window.location.href = langUrl
+                    } else {
+                        alert('Language does not exist!')
+                        console.log("Language document does not exist")
+                        return;
+                    }
+                }
+            }
+            request.open('GET', langUrl, true);
+            request.send()
+    } else {
+        alert("Language undefined. Please check language reference.")
+    }
+}
+
+ 
+
+function isPageNotFound(responseText) {
+    var isSoft404 = false
+    var template = document.createElement('template');
+    template.innerHTML = responseText
+    var bannerTitle = template.getElementsByClassName('banner-title').innerHTML
+    if (bannerTitle !== undefined && bannerTitle !== '' && bannerTitle !== null) {
+        isSoft404 = bannerTitle.includes('Ooops... Page Not Found')
+    }
+    return isSoft404
+}
+
+function getBaseURL() {
+    var base = ''
+    var currentPath = document.location.pathname
+    var p = currentPath.split('/')
+    for (let i = 1; i < 3; i++) {
+        base += '/' + p[i]
+    }
+    return base
+}
+
+function getCurrentPath() {
+    const langList = "ar,bg,ca,zh_CN,zh_TW,hr,cs,da,nl,fi,fr,de,el,iw,hu,it,ja,kk,ko,no,pl,pt_BR,pt,ro,ru,es,sk,sl,sv,th,tr"
+    var currentPath = document.location.pathname
+    var p = currentPath.split('/')
+    var langLoc = p[3]
+    if (langList.includes(langLoc)) {
+        currentPath = currentPath.replace('/' + langLoc, '')
+    }
+
+    return currentPath
+}
+-->
+</script>
+  </div>
+  
+        </div>
+
+</font></div>

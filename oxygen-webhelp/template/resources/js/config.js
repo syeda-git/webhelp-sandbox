@@ -25,7 +25,8 @@ export const CHANGE_LANG = "en"; //Mention the language you want to generate the
 
 //Change Product Name to your actual product name. ex: Digital Experience
 export const VERSION_LIST = {
-    "0" : "Product Name",
+    "2" : "Product Name",
+    "3" : "3.0.x"
     // "v6": "Version 6 CR6",
     // "v55": "Version 5.5 CR3"
 }

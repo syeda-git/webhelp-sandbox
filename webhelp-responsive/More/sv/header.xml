@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="https://help.hcltechsw.com">          <img width="110" src="https://help.hcltechsw.com/assets/images/hcl-logo-white.svg" alt="HCL-logotyp" target="_blank"/> <span class="nav-bar-separator-pipe"/> <span class="title" style="margin-left: 15px; vertical-align: middle; font-size: large; color:#8cd7fa;">Produktdokumentation</span>     </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"/>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" style="color:#8cd7fa;" href="https://support.hcltechsw.com/csm?id=csm_index">Kundsupport</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color:#8cd7fa;" href="https://www.hcltechsw.com/wps/portal/hclsw-home">HCL Software</a>
+            </li>
+        </ul>
+    </div>
+</nav>
